@@ -1,5 +1,5 @@
 # ✅ 3. **Yangi element qo‘shish**
-
+from pprint import pprint
 import json
 
 with open("students.json","r+") as file:
@@ -13,6 +13,6 @@ with open("students.json","r+") as file:
     newUser["age"] = 22
     
     continueJson.append(newUser)
-    print(continueJson)
+    pprint(continueJson)
 with open("students.json","w" ) as file02:
    file02.write((json.dumps(continueJson, indent=4)))
