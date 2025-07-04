@@ -1,5 +1,5 @@
 # ✅ 4. **Foydalanuvchidan ma’lumot olib JSON ga yozish**
-
+from pprint import pprint
 import json
 
 with open("students.json","r+") as file:
@@ -16,7 +16,7 @@ with open("students.json","r+") as file:
     
     continueJson.append(newUser)
     
-    print(continueJson)
+    pprint(continueJson)
     
 with open("students.json","w" ) as file02:
    file02.write((json.dumps(continueJson, indent=4)))

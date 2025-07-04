@@ -23,5 +23,20 @@
         "name": "Mukhammadrizo",
         "surname": "Mirzayev",
         "age": 16
+    },
+    {
+        "name": "Parviz",
+        "surname": "Boltayev",
+        "age": 22
+    },
+    {
+        "name": "Diyorbek",
+        "surname": "Jumanov",
+        "age": 25
+    },
+    {
+        "name": "Cristiano",
+        "surname": "Ronaldo",
+        "age": 40
     }
 ]
